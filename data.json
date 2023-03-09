@@ -1,0 +1,184 @@
+{
+    "uid": 0,
+    "input": "",
+    "Character": {
+        "Name": "ミカ",
+        "Const": 6,
+        "Level": 90,
+        "Love":9,
+        "Status": {
+            "HP": 20000,
+            "攻撃力": 1000,
+            "防御力": 2000,
+            "元素熟知": 500,
+            "会心率": 100.0,
+            "会心ダメージ": 300.3,
+            "元素チャージ効率": 150.8,
+            "風元素ダメージ":61.6
+        },
+        "Talent": {
+            "通常": 10,
+            "スキル": 8,
+            "爆発": 13
+        },
+        "Base":{
+            "HP":10000,
+            "攻撃力":340,
+            "防御力":680
+        }
+
+    },
+    "Weapon": {
+        "name": "狼の末路",
+        "Level": 90,
+        "totu": 5,
+        "rarelity": 5,
+        "BaseATK": 565,
+        "Sub": {
+            "name": "元素チャージ効率",
+            "value": "30.6"
+        }
+    },
+    "Score": {
+        "State": "HP",
+        "total": 236.3,
+        "flower": 34.2,
+        "wing": 39.7,
+        "clock": 32.6,
+        "cup": 24.1,
+        "crown": 29.4
+    },
+    "Artifacts": {
+        "flower": {
+            "type": "燃え盛る炎の魔女",
+            "Level": 20,
+            "rarelity": 5,
+            "main": {
+                "option": "HP",
+                "value": 4780
+            },
+            "sub": [{
+                    "option": "元素チャージ効率",
+                    "value": 11.7
+                },
+                {
+                    "option": "元素熟知",
+                    "value": 44
+                },
+                {
+                    "option": "会心ダメージ",
+                    "value": 19.4
+                },
+                {
+                    "option": "会心率",
+                    "value": 7.4
+                }
+            ]
+        },
+        "wing": {
+            "type": "燃え盛る炎の魔女",
+            "Level": 20,
+            "rarelity": 5,
+            "main": {
+                "option": "攻撃力",
+                "value": 311
+            },
+            "sub": [{
+                    "option": "元素熟知",
+                    "value": 44
+                },
+                {
+                    "option": "会心ダメージ",
+                    "value": 27.2
+                },
+                {
+                    "option": "会心率",
+                    "value": 3.9
+                },
+                {
+                    "option": "攻撃パーセンテージ",
+                    "value": 4.7
+                }
+            ]
+        },
+        "clock": {
+            "type": "燃え盛る炎の魔女",
+            "Level": 20,
+            "rarelity": 5,
+            "main": {
+                "option": "元素熟知",
+                "value": 187
+            },
+            "sub": [{
+                    "option": "攻撃力",
+                    "value": 35
+                },
+                {
+                    "option": "会心率",
+                    "value": 13.6
+                },
+                {
+                    "option": "会心ダメージ",
+                    "value": 5.4
+                },
+                {
+                    "option": "防御力",
+                    "value": 16
+                }
+            ]
+        },
+        "cup": {
+            "type": "燃え盛る炎の魔女",
+            "Level": 20,
+            "rarelity": 5,
+            "main": {
+                "option": "炎元素ダメージ",
+                "value": 46.6
+            },
+            "sub": [{
+                    "option": "HPパーセンテージ",
+                    "value": 5.8
+                },
+                {
+                    "option": "攻撃力",
+                    "value": 37
+                },
+                {
+                    "option": "会心ダメージ",
+                    "value": 24.1
+                },
+                {
+                    "option": "防御力",
+                    "value": 21
+                }
+            ]
+        },
+        "crown": {
+            "type": "燃え盛る炎の魔女",
+            "Level": 20,
+            "rarelity": 5,
+            "main": {
+                "option": "会心ダメージ",
+                "value": 62.2
+            },
+            "sub": [{
+                    "option": "会心率",
+                    "value": 7.4
+                },
+                {
+                    "option": "HP",
+                    "value": 508
+                },
+                {
+                    "option": "元素チャージ効率",
+                    "value": 5.2
+                },
+                {
+                    "option": "攻撃パーセンテージ",
+                    "value": 14.6
+                }
+            ]
+        }
+    },
+    "元素": "氷"
+}
